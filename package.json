@@ -1,7 +1,7 @@
 {
-  "name": "appsync-subscription-observable",
-  "version": "1.2.2",
-  "description": "AppSync subscription implementation with RxJs observable",
+  "name": "escala-appsync-subscription",
+  "version": "1.2.3",
+  "description": "Inspired: AppSync subscription implementation with RxJs observable",
   "main": "dist/index.js",
   "type": "module",
   "keywords": [
@@ -9,7 +9,7 @@
     "subscription",
     "rxjs"
   ],
-  "repository": "github:sashee/appsync-subscription-observable",
+  "repository": "github:eliecer2000/appsync-subscription-observable",
   "scripts": {
     "test": "node --import tsx --test src/**/*.test.ts",
     "build": "tsc --build",
@@ -20,11 +20,11 @@
     "dist"
   ],
   "author": {
-    "name": "Tamas Sallai",
-    "url": "https://advancedweb.hu/"
+    "name": "Eliezer Rangel"
   },
   "license": "ISC",
   "dependencies": {
+    "crypto": "^1.0.1",
     "rxjs": "^7.8.1"
   },
   "devDependencies": {
